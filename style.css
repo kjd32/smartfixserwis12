@@ -1,0 +1,51 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #1e90ff;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+section {
+  padding: 1em 2em;
+}
+.karta {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin: 1em 0;
+  padding: 1em;
+  transition: transform 0.3s ease;
+}
+.karta:hover {
+  transform: scale(1.02);
+}
+.karta img {
+  max-width: 200px;
+  display: block;
+  margin-bottom: 1em;
+}
+form input {
+  margin: 0.5em 0;
+  padding: 0.5em;
+  width: 100%;
+  max-width: 300px;
+}
+form button {
+  padding: 0.5em 1em;
+  background: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+form button:hover {
+  background: #0078d7;
+}
+    
